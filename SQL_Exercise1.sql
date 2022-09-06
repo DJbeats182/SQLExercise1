@@ -12,7 +12,7 @@ SELECT * FROM products WHERE price = 11.99 OR price = 13.99;
 SELECT * FROM products WHERE NOT price = 11.99 ORDER BY price;
 
 -- find all products and sort them by price from greatest to least. DONE
-SELECT * FROM products ORDER BY price;
+SELECT * FROM products ORDER BY price DESC;
 
 -- find all employees who don't have a middle initial. DONE
 SELECT * FROM employees WHERE MiddleInitial IS null;
